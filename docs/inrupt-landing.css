@@ -1,0 +1,48 @@
+h1 {
+   font-family: 'Lato', Open Sans, sans-serif;
+   color: hsl(0, 0%, 20%);
+   text-align: center;
+   padding: 16px 0 16px;
+   font-size: 28px;
+   line-height: 1.25;
+}
+
+body {
+   font-family: 'Lato', Open Sans, sans-serif;
+   font-size: 14px;
+   font-weight: 500;
+   color: #005b81;
+}
+
+.heading {
+   text-align: center;
+}
+
+.heading p {
+   font-size: 16px;
+   line-height: 1.5;
+   color: hsl(0, 0%, 20%);
+}
+
+.heading a {
+   color: #0073a8;
+   text-decoration: none;
+}
+
+.heading a:hover {
+   text-decoration: underline;
+}
+
+.logo {
+   line-height: inherit;
+   position: relative;
+   height: 45px;
+   width: 250px;
+}
+
+header {
+   display: flex;
+   background: #fff !important;
+   box-shadow: 0 .125rem .25rem 0 rgba(0,0,0,.11);
+   width: auto;
+}
